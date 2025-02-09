@@ -25,9 +25,7 @@ export default function Home() {
 
           {/* Content */}
           <div className="flex-1">
-            <div className="flex flex-col gap-16">
-              <ProductCard id={0} name={""} price={200} imageUrl={""} />
-            </div>
+            <div className="flex flex-col gap-16"></div>
           </div>
         </div>
       </Container>
