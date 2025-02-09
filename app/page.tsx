@@ -1,4 +1,10 @@
-import { Container, Filters, Title, TopBar } from "@/components/shared"
+import {
+  Container,
+  Filters,
+  ProductCard,
+  Title,
+  TopBar,
+} from "@/components/shared"
 import React from "react"
 
 export default function Home() {
@@ -19,7 +25,9 @@ export default function Home() {
 
           {/* Content */}
           <div className="flex-1">
-            <div className="flex flex-col gap-16">List products</div>
+            <div className="flex flex-col gap-16">
+              <ProductCard id={0} name={""} price={200} imageUrl={""} />
+            </div>
           </div>
         </div>
       </Container>
