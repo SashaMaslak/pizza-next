@@ -1,11 +1,12 @@
+import React from "react"
 import {
   Container,
   Filters,
-  ProductCard,
   Title,
   TopBar,
+  ProductsGroupList,
 } from "@/components/shared"
-import React from "react"
+import products from "../public/pizzas.json"
 
 export default function Home() {
   return (
@@ -25,7 +26,13 @@ export default function Home() {
 
           {/* Content */}
           <div className="flex-1">
-            <div className="flex flex-col gap-16"></div>
+            <div className="flex flex-col gap-16">
+              <ProductsGroupList
+                title="Popular"
+                items={products}
+                categoryId={1}
+              />
+            </div>
           </div>
         </div>
       </Container>

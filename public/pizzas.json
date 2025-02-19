@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Pesto",
+    "price": 5,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/11ee7d613b84a5dbb4c1c50fb9583b7e.avif",
+    "items": [{ "price": 550 }]
+  },
+  {
+    "id": 2,
+    "name": "Pizza Chorizo ​​fresh",
+    "price": 7,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/11ee7d61706d472f9a5d71eb94149304.avif",
+    "items": [{ "price": 650 }]
+  },
+  {
+    "id": 3,
+    "name": "Pizza Beef Stroganoff",
+    "price": 8,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0194d4f7ee96785e8dbe7a41a8c330ee.avif",
+    "items": [{ "price": 440 }]
+  },
+  {
+    "id": 4,
+    "name": "Pizza Bavarian",
+    "price": 9,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0194491914e478b4aa3e18d44e07eed9.avif",
+    "items": [{ "price": 270 }]
+  },
+  {
+    "id": 5,
+    "name": "Pizza Chill Grill",
+    "price": 6,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/11ef9a30c3246adebecb726548cbede9.avif",
+    "items": [{ "price": 380 }]
+  }
+]
