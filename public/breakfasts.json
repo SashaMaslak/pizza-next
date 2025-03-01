@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Assemble your omelette",
+    "price": 550,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019461a2fe8474058e94453865b09cc7.avif",
+    "items": [{ "price": 550 }]
+  },
+  {
+    "id": 2,
+    "name": "Omelet with tomatoes in pita",
+    "price": 650,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0194b1fbae43718bb95c83c74898ce79.avif",
+    "items": [{ "price": 650 }]
+  },
+  {
+    "id": 3,
+    "name": "Bacon Omelette in Pita",
+    "price": 188,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0194b1f7589f7935aaa2c204c2066ac4.avif",
+    "items": [{ "price": 188 }]
+  },
+  {
+    "id": 4,
+    "name": "Ham and mushroom omelette in pita",
+    "price": 270,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0194b1fdbfa8724e88a115b9f3fbc59f.avif",
+    "items": [{ "price": 270 }]
+  },
+  {
+    "id": 5,
+    "name": "Omelet with pepperoni in pita",
+    "price": 260,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0194b1fadc94784c9f8454c2c68af191.avif",
+    "items": [{ "price": 260 }]
+  },
+  {
+    "id": 6,
+    "name": "Cheese omelette in pita",
+    "price": 6,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0194b1fcda2e7744a9d04164386c987b.avif",
+    "items": [{ "price": 199 }]
+  },
+  {
+    "id": 7,
+    "name": "Omelette with bacon",
+    "price": 179,
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0194b1f61faf77b2875b30ac59824405.avif",
+    "items": [{ "price": 179 }]
+  }
+]

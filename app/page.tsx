@@ -6,7 +6,8 @@ import {
   TopBar,
   ProductsGroupList,
 } from "@/components/shared"
-import products from "../public/pizzas.json"
+import pizzas from "../public/pizzas.json"
+import breakfasts from "../public/breakfasts.json"
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       <TopBar />
 
       <Container className="mt-10 pb-14">
-        <div className="flex gap-[60px]">
+        <div className="flex gap-[80px]">
           {/* Bar */}
           <div className="w-[250px]">
             <Filters />
@@ -27,9 +28,12 @@ export default function Home() {
           {/* Content */}
           <div className="flex-1">
             <div className="flex flex-col gap-16">
+              <ProductsGroupList title="Pizzas" items={pizzas} categoryId={1} />
+            </div>
+            <div className="flex flex-col gap-16">
               <ProductsGroupList
-                title="Popular"
-                items={products}
+                title="Breakfasts"
+                items={breakfasts}
                 categoryId={1}
               />
             </div>
