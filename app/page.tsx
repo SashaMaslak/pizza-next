@@ -34,7 +34,7 @@ export default function Home() {
               <ProductsGroupList
                 title="Breakfasts"
                 items={breakfasts}
-                categoryId={1}
+                categoryId={2}
               />
             </div>
           </div>
